@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "app_cotacao",
-    "slug": "app_cotacao",
+    "slug": "bitcoin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b6e0f48-def5-4726-9b18-0b16191bcf15"
+      }
+    },
+    "owner": "kati9898",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1b6e0f48-def5-4726-9b18-0b16191bcf15"
     }
   }
 }
