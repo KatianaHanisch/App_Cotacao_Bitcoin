@@ -10,7 +10,7 @@ export default function ContacoesItem({ data, valor }) {
         <View style={styles.containerImage}>
           <Image
             style={styles.imageLogo}
-            source={require("../../../../assets/bitcoin2.png")}
+            source={require("../../../../assets/bitcoin.png")}
           />
           <Text style={styles.data}>{data}</Text>
         </View>
